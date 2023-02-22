@@ -1,0 +1,16 @@
+.headerContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aqua;
+    padding-left: 30px;
+}
+.name{
+    margin-bottom: 0px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.email{
+    margin-top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}

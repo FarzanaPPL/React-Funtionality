@@ -1,0 +1,110 @@
+.inputContainer{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+.inputTitle{
+    color: #0000bf;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.input{
+    width:20%;
+    padding:8px
+}
+.calculationPartContainer{
+    display: flex;
+    justify-content: center;
+}
+.calculaterContainer{
+    margin-right: 70px;
+}
+.primeButton{
+    background-color:chocolate;
+    color: white;
+    border-radius: 6px;
+    border-width: 0px;
+    height:36px;
+    width:120px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.factButton{
+    background-color:darkblue;
+    color: white;
+    border-width: 0px;
+    border-radius: 6px;
+    height:36px;
+    width:100px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.fibButton{
+    background-color:darkorchid;
+    color: white;
+    border-width: 0px;
+    border-radius: 6px;
+    height:36px;
+    width:100px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.result{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+@media (max-width:576px){
+    .inputContainer{
+        margin-bottom: 30px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: antiquewhite;
+        padding: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+        
+    }
+    .inputTitle{
+        font-size: 10px;
+    }
+    .input{
+        width:80px;
+        height: 10px;
+        padding:0px
+    }
+    .calculaterContainer{
+        margin-right: 40px;
+    }
+    .primeButton{
+        height:20px;
+        width:80px;
+        font-size: 10px;
+        margin-left:30px;
+    }
+    .factButton{
+        height:20px;
+        width:80px;
+        font-size: 10px;
+    }
+    .fibButton{
+        height:20px;
+        width:80px;
+        font-size: 10px;
+    }
+    .result{
+        font-size: 8px;
+        
+    }
+    .primeResult{
+        padding-left:30px;
+    }
+}
